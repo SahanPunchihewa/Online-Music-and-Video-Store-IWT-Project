@@ -1,0 +1,354 @@
+body{
+    background-image: url("../Image/main.jpeg");
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo img{
+
+    width: 300px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    width:auto;
+    height: 98px;
+    background: black;
+    overflow: auto;
+    
+
+}
+
+ul{
+
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style: none;
+   
+}
+
+li{
+
+    float: left;
+}
+
+li a{
+
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 15px;
+    
+
+}
+
+li a:hover{
+    background: grey;
+    font-weight: bold;
+    text-transform:uppercase;
+
+
+}
+
+.home{
+   
+    margin-left: 20%;
+    text-align: center;
+    
+    
+    
+
+}
+
+.music{
+   margin-left: 5%;
+   text-align: center;
+}
+
+.video{
+
+   margin-left: 5%;
+   text-align: center;
+}
+
+.logo img{
+
+    position:absolute;
+    margin-left: 0;
+}
+
+.about{
+
+ margin-left: 5%;
+ text-align: center;
+}
+
+.container{
+
+    width : 750px;
+    height : 570px;
+    border : 3px solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(53, 51, 51, 0.678);
+    margin-top: 3%;
+    margin-left: 30%;
+    
+}
+.container h1{
+
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(246, 250, 250);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardholder{
+
+
+    width: 75%;
+    height: 40px;
+    display: flex;
+    margin-left: 90px; 
+    margin-top: 50px;   
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+
+.cardnumber{
+
+    width: 75%;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 90px; 
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+
+.container h3{
+
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-left: -200px;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+
+}
+
+
+.months{
+
+  
+     align-items: center;
+     border-radius: 10px;
+     width : 70px;
+     height: 40px;
+     margin-top: 10px;
+     margin-left: 220px;
+     
+     
+
+
+}
+
+.year{
+
+    align-items: center;
+    width : 90px;
+    height: 40px;
+    border-radius: 10px;
+
+
+}
+
+.cvv{
+
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width : 120px;
+    height: 40px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.buynow{
+
+    width:200px;
+    height: 50px;
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-left: 260px;
+    font-weight: bold;
+    background-color: rgb(13, 70, 70);
+    color: white;
+
+
+}
+.nav2{
+
+    width:auto;
+    height: 150px;
+    background: black;
+    margin-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+
+
+.visa{
+
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.visa:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+   
+}
+
+.mastercard{
+
+    height: 50px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.mastercard:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.amercian{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.amercian:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+.copy{
+
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+    
+}
+
+.googlestore{
+
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+.googlestore:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+
+
+.applestore{
+
+    height: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.applestore:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.facebook{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.facebook:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+.twitter{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.twitter:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.instagram{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.instagram:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}

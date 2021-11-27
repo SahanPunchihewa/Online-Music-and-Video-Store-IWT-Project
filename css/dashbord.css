@@ -1,0 +1,354 @@
+i{
+    text-align: left;
+}
+@media(max-width: 991px){
+	.gallery .gallery-item{
+		width: 50%;
+	}
+}
+@media(max-width: 767px){
+    .gallery .gallery-item{
+		width: 100%;
+	}	
+	.gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	}
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+    background:#2d2d2d;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0;
+    margin:0;
+    
+    font-family: sans-serif;
+    color:#FFF;
+  }
+  
+  .select {
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width:250px;
+    height:40px;
+  }
+  
+  .option {
+    padding:0 30px 0 10px;
+    min-height:40px;
+    display:flex;
+    align-items:center;
+    background:#333;
+    border-top:#222 solid 1px;
+    position:absolute;
+    top:0;
+    width: 100%;
+    pointer-events:none;
+    order:2;
+    z-index:1;
+    transition:background .4s ease-in-out;
+    box-sizing:border-box;
+    overflow:hidden;
+    white-space:nowrap;
+    
+  }
+  
+  .option:hover {
+    background:#666;
+  }
+  
+  .select:focus .option {
+    position:relative;
+    pointer-events:all;
+  }
+  
+  input {
+    opacity:0;
+    position:absolute;
+    left:-99999px;
+  }
+  
+  input:checked + label {
+    order: 1;
+    z-index:2;
+    background:#666;
+    border-top:none;
+    position:relative;
+  }
+  
+  input:checked + label:after {
+    content:'';
+    width: 0; 
+      height: 0; 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid rgb(10, 201, 191);
+    position:absolute;
+    right:10px;
+    top:calc(50% - 2.5px);
+    pointer-events:none;
+    z-index:3;
+  }
+  
+  input:checked + label:before {
+    position:absolute;
+    right:0;
+    height: 40px;
+    width: 40px;
+    content: '';
+    background:#666;
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.container{
+  width: 740px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card{
+  position: relative;
+  cursor: pointer;
+}
+
+.container .card .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: rgb(177, 172, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: #030303;
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+  max-width: 100px;
+}
+
+.container .card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2{
+  position: relative;
+  background: rgb(141, 1, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a{
+  margin: 15px 0 0;
+  display:  inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: rgb(3, 3, 3);
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333;
+  color: rgb(88, 3, 3);
+}
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+
+
+.containerr {
+  background: #232931;
+  width: 310px;
+  height: 1125px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10%;
+  
+}
+
+.leftbox {
+  top: -5%;
+  left: 5%;
+  position: absolute;
+  width: 15%;
+  height: 110%;
+  background-color: #50d890;
+  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
+}
+
+nav {
+  margin: 2.6em auto;
+}
+
+nav a {
+  list-style: none;
+  padding: 35px;
+  color: #232931;
+  font-size: 1.1em;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+.rightbox {
+  padding: 0em 34rem 0em 0em;
+  height: 100%;
+}
+
+.rb-containerr {
+  font-family: "PT Sans", sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.rb-containerr ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-containerr ul.rb li {
+  list-style: none;
+  margin: auto;
+  margin-left: 10em;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-containerr ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-containerr ul.rb li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: #50d890;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.rb-containerr ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: #50d890;
+  position: relative;
+  width: 100px;
+  font-size: 12px;
+}
+
+.item-title {
+  color: #fff;
+}
+
+.containerr-3 {
+  width: 5em;
+  vertical-align: right;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.containerr-3 input#search {
+  width: 150px;
+  height: 30px;
+  background: #fbfbfb;
+  border: none;
+  font-size: 10pt;
+  color: #262626;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0.9em 0 0 28.5em;
+  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
+}
+
+.containerr-3 .icon {
+  margin: 1.3em 3em 0 31.5em;
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+input::placeholder {
+  padding: 5em 5em 1em 1em;
+  color: #4303b9;
+}
+
+.title{
+  width: 75%;
+  height: 30px;
+  color: rgb(10, 10, 10);
+  font-size:1.5em;
+  text-align: center;
+  position: relative;
+      
+        border-top-left-radius: 10px;
+        background: rgba(190, 211, 0, 0.2);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        border-bottom-right-radius: 10px;
+  
+}
+
+
+
+

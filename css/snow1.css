@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+  
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1{
+    
+    margin: 10px;
+	margin-left:-350px;
+    
+    color:rgb(252, 252, 5);
+    font-size: 30px;
+   
+  
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.box
+{
+    position: relative;
+
+    top: 350px;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"]
+{
+    
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px;
+}
+input[type="submit"]{
+    position: relative;
+	left:25px;
+    
+    border-radius:25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: aqua;
+    color: #fff;
+
+}
+input[type="submit"]:hover
+{
+    background: #ff5722;
+}
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #F4D03F, 0 0 20px #F4D03F, 0 0 25px red, 0 0 30px #A3E4D7, 0 0 35px #48C9B0;
+    }
+    to {
+      text-shadow: 0 0 10px rgb(233, 160, 172), 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px rgb(13, 236, 13), 0 0 70px #2877c5;
+    }
+

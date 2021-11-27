@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+  
+    background-size: cover;
+    font-family: sans-serif;
+}
+.framstyles{
+    padding: 20px;
+    margin: auto;
+    color: white;
+    border: 3px solid black;
+    background-color: #2a2932;
+    opacity: 0.9;
+}
+input[type="text"]
+{
+    
+    background: #fff;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px;
+}
+input[type="email"]{
+	 background: #fff;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px;
+}
+input[type="submit"]{
+	color:black;
+    position: relative;
+    left: -5px;
+    border-radius:25px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    background: white;
+    color: black;
+
+}
+input[type="submit"]:hover
+{
+    background: #ff5722;
+}

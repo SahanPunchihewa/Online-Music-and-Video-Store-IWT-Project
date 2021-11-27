@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.background{  /* background wallpaper*/
+
+    background-size: cover;
+    height: 100vh;
+    height: 20%;   
+
+}
+
+
+
+.logo img{  /* website logo*/
+
+    width: 300px;
+    height: 90px;
+   margin: 0;
+    padding: 0;
+    
+}
+
+nav{ /* navigation */
+    width:auto;
+    height: 98px;
+    background: black;
+    overflow: auto;
+    
+
+}
+
+ul{
+
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style: none;
+   
+}
+
+li{
+
+    float: left;
+}
+
+li a{
+
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 15px;
+    
+
+}
+
+li a:hover{
+    background: grey;
+    font-weight: bold;
+    text-transform:uppercase;
+
+
+}
+
+.home{
+   
+    margin-left: 20%;
+    text-align: center;
+    
+    
+    
+
+}
+
+.music{
+    margin-left: 5%;
+    text-align: center;
+ }
+ 
+ .video{
+ 
+    margin-left: 5%;
+    text-align: center;
+ }
+ 
+ .logo img{
+ 
+     position:absolute;
+     margin-left: 0;
+ }
+ 
+ .about{
+ 
+  margin-left: 5%;
+  text-align: center;
+ }
+
+ .signin{
+
+    width:5%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 15%;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.signin:hover{
+
+font-weight: bold;
+
+}
+
+.register{
+
+width:5%;
+height: 40px;
+margin-top: 25px;
+margin-left: 3%;
+border-radius: 30px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+.register:hover{
+
+font-weight: bold;    
+}

@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+
+}
+
+.background{ /* CSS for background wallpaper*/
+
+    background-size: cover;
+    height: 100vh;
+    background-position:center ;
+}
+
+.background ::after{ /* Add opacity for background wallpaper*/
+
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0,0.2);
+    opacity: 0.8%;
+}
+
+.nav{ /* Navigation bar*/
+
+    width : auto;
+    height: 10%;
+    display: flex;
+    padding-right: 100px;
+    margin-bottom: 5%;
+    background: black;
+    margin: 0;
+    padding:0;
+    align-items: center;
+    
+
+
+}
+
+.logo{ /* Logo CSS*/
+ 
+    width: 300px;
+    height: 90px;
+    /*margin: 0;
+    padding: 0;*/
+    
+
+}
+.spece{
+    height: 200px;
+    width: 100px;
+}
+
+.registerbox{ /* Register box CSS*/
+    width : 700px;
+    height : 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color : #fff; 
+   left : 50%;
+    position :absolute;
+    transform : translate(-50%, -50%);
+    box-sizing: border-box;
+    z-index: 999;
+    margin-top: 350px;
+    
+}
+
+h1{ 
+
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 800;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fblogo{ /* Login with facebook image CSS*/
+    height : 40px;
+    margin-left : 110px;
+    margin-top: 2%;
+    cursor: pointer;
+
+}
+
+.googlelogo{  /* Login with gmail image CSS*/
+
+    height : 40px;
+    margin-left : 50px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+
+.first{
+
+    height : 30px;
+    width : 280px;
+    margin-left: 42px;
+    margin-top : 5%;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+
+.last{
+
+    height : 30px;
+    width : 280px;
+    margin-left: 45px;
+    margin-top : 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.firstname{ /* First name input type CSS*/
+
+    margin-left: 130px;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    margin-top : 5%;
+}
+
+
+.lastname{  /* last name input type CSS*/
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    margin-top : 5%;
+
+}
+
+.email{ /* Email address text bar CSS*/
+    height : 30px;
+    width: 620px;
+    margin-top: 5%;
+    margin-left: 42px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.checkbox1{ /* Radio check box*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+    margin-top : 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    font-weight: 300;
+}
+
+.reg{
+
+    height : 40px;
+    width : 289px;
+    margin-top: 10%;
+    margin-left: 220px;
+    background:white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.password1{ /* Password text field CSS*/
+
+    margin-left: 130px;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+
+.password2{  /* Confirm Password text field CSS*/
+    margin-left: 130px;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+   
+}
+
+
+
+
+.logo img{  /* website logo*/
+
+    width: 300px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{ /* navigation */
+    width:auto;
+    height: 98px;
+    background: black;
+    overflow: auto;
+    
+
+}
+
+ul{
+
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style: none;
+   
+}
+
+li{
+
+    float: left;
+}
+
+li a{
+
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 15px;
+    
+
+}
+
+li a:hover{
+    background: grey;
+    font-weight: bold;
+    text-transform:uppercase;
+
+
+}
+
+.home{ /* Home in navigation bar*/
+   
+    margin-left: 20%;
+    text-align: center;
+    
+    
+    
+
+}
+
+.music{ /* Music in navigation bar*/
+   margin-left: 5%;
+   text-align: center;
+}
+
+.video{ /* Video in navigation bar*/
+ 
+   margin-left: 5%;
+   text-align: center;
+}
+
+.logo img{ /* Logo CSS*/
+
+    position:absolute;
+    margin-left: 0;
+}
+
+.about{ /* About in navigation bar*/
+
+ margin-left: 5%;
+ text-align: center;
+}
+
+
+.nav1{
+    margin-top: -95px;
+}
+
+
+
+/* Footer CSS */
+
+.nav2{
+
+    width:auto;
+    height: 180px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 696px;
+    
+}
+
+
+
+.visa{
+
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.visa:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+   
+}
+
+.mastercard{
+
+    height: 50px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.mastercard:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.amercian{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.amercian:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+.copy{
+
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+    
+}
+
+.googlestore{
+
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+.googlestore:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+
+
+.applestore{
+
+    height: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.applestore:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.facebook{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.facebook:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+.twitter{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.twitter:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.instagram{
+
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.instagram:hover{
+
+    transform: scale(1.3);
+    z-index: 2;
+}

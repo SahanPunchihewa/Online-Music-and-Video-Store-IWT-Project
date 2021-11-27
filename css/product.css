@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding:0;
+   width: 100%;
+   background-color: rgb(64, 64, 75);
+   background-size: cover;
+   background-attachment: fixed;
+  }
+  .colV{
+      float: left;
+      padding: 15px;
+
+  }

@@ -1,0 +1,101 @@
+body {
+   
+    
+    font-family: 'Abril Fatface', serif;
+
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-image: url("#.jpg"), url("#");
+    background-color: #a64dff;
+    background-repeat: no-repeat;
+}
+
+
+
+.profile-nav .user-heading {
+    
+    color: rgb(252, 241, 241);
+    border-radius: 4px 4px 0 0;
+   
+    padding: 15px;
+    text-align: center;
+}
+
+.profile-nav .user-heading.round a  {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 10px solid #000000;
+    display: inline-block;
+}
+
+.profile-nav .user-heading a img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.profile-nav .user-heading h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.profile-nav .user-heading p {
+    font-size: 20px;
+}
+
+.profile-nav ul {
+    margin-top: 50px;
+}
+
+.profile-nav ul > li {
+    border-bottom: 1px solid #ebeae6;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+
+.bio-row {
+    width: 100%;
+    float: top;
+    margin-bottom: 22px;
+    padding:0 15px;
+    font-size: 25px;
+}
+
+.bio-row p span {
+    width: 175px;
+    display: inline-block;
+}
+
+.topnav {
+    background-color:#000000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 120px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
