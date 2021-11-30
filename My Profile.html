@@ -1,0 +1,102 @@
+
+<html>
+<head>
+
+  <title>User Profile</title>
+      
+        <link rel="stylesheet" href = "css/pr.css">
+
+</head>
+
+
+<body>
+<?php include('php/navigation.php');?>
+<br><br><br><br><br><br>
+<div class="profile-info col-md-9">
+     
+     <div class="panel">
+     <?php
+           include 'database.php';
+               
+           $q = "SELECT * FROM profile";
+           $query = mysqli_query($conn,$q);
+           $check_details= mysqli_num_rows($query)> 0;
+           
+           if($check_details)
+           {
+               while($row=mysqli_fetch_assoc($query))
+           {
+           
+       ?>
+
+          
+     
+<div class="row">
+  <div class="profile-nav col-md-3">
+      <div class="panel">
+          <div class="user-heading round">
+              <a href="#">
+                  <img src="image/aa.jpg" alt="">
+              </a>
+              <h1><?php echo $row['fname']?> <?php echo $row['lname']?></h1>
+              <p><?php echo $row['email']?></p>
+          </div>
+
+          
+
+          <div class="topnav">
+            
+            <a href="php/mycollection.php">Collection</a>
+            <a href="php/Mupload.php">Upload Music</a>
+            <a href="php/Vupload.php">Upload Video</a>
+            <a href="php/editProfile.php">Edit Profile</a>
+
+          </div>
+              
+      </div>
+    
+
+                      
+            <div class="panel-body bio-graph-info">
+                
+                <div class="row">
+                    <div class="bio-row">
+                        <p><span>First Name </span>:<?php echo $row['fname']?> </p>
+                    </div>
+                    <div class="bio-row">
+                        <p><span>Last Name </span>: <?php echo $row['lname']?> </p>
+                    </div>
+                    <div class="bio-row">
+                        <p><span>Country </span>: Australia</p>
+                    </div>
+                    <div class="bio-row">
+                        <p><span>Birthday</span>:<?php echo $row['dob']?></p>
+                    </div>
+                 
+                    <div class="bio-row">
+                        <p><span>Email </span>: <?php echo $row['email']?>></p>
+                    </div>
+                    <div class="bio-row">
+                        <p><span>Mobile </span>: <?php echo $row['pno']?></p>
+                    </div>
+                    <div class="bio-row">
+                        <p><span>Phone </span>: <?php echo $row['pno']?></p>
+                    </div>
+                </div>
+            </div>
+            <?php
+                }
+            }
+            else
+            {
+                echo"no";
+            }
+            ?>
+                 </div>
+           </div>
+       </div>
+ </div>
+</div>
+</body>
+</html>
+<?php include('php/footer.php');?>
